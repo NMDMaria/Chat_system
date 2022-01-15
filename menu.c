@@ -10,7 +10,7 @@ void run_program(char *name)
     char cmd[1024] = "./";
     
     // Put path coresponding to your files
-    char path[1024] = "./library/programs/client/";
+    char path[1024] = "./chatsystem/programs/client/";
 
     strcat(cmd, name);
     strcat(path, name);
